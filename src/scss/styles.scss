@@ -1,0 +1,104 @@
+// scss/styles.scss
+
+/* Фоновий градієнт */
+body {
+    background: linear-gradient(45deg, #ff6b6b, #f1c40f);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Контейнер для фіксованої ширини */
+.container {
+    max-width: 1200px; /* максимальна ширина */
+    margin: 0 auto; /* центрування */
+    padding: 20px; /* внутрішні відступи */
+}
+
+/* Відступи для body та головних елементів */
+header, footer, main, section, aside {
+    padding: 20px;
+}
+
+/* Стилі для навігаційного меню */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+}
+
+/* Стилі для заголовків */
+h1, h2 {
+    color: #333;
+}
+
+/* Стилі для статей */
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+article header h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #555;
+}
+
+/* Стилі для бокової панелі */
+aside {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Стилі для футера */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        .day-header {
+            background-color: #e0f7fa;
+            font-weight: bold;
+        }
+        .day-cell {
+            background-color: #f0f0f0;
+            font-weight: bold;
+            text-align: center;
+        }
